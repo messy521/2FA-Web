@@ -1,0 +1,15 @@
+#copy-notification {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 1000;
+    opacity: 0.9;
+}
+
+.hidden {
+    display: none;
+}

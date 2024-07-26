@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2FA 代码生成器</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #qrcode {
+            margin: 20px;
+        }
+        #otp {
+            font-size: 24px;
+            color: green;
+        }
+        #secret-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #copy-btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="copy-notification" class="hidden">复制成功</div>
+    <h1>2FA 代码生成器</h1>
+    <div id="qrcode"></div>
+    <input type="text" id="secret" placeholder="输入密钥">
+    <button onclick="startGeneration()">提交并复制</button>
+    <p id="otp"></p>
+    <p id="expiry"></p>
+    <div id="secret-info"></div>
+    <script src="https://cdn.jsdelivr.net/npm/otpauth/dist/otpauth.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

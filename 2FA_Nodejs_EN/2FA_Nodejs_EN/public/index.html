@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>2FA Code Generator</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        #qrcode {
+            margin: 20px;
+        }
+        #otp {
+            font-size: 24px;
+            color: green;
+        }
+        #secret-info {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        #copy-btn {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="copy-notification" class="hidden">Copy Successful</div>
+    <h1>2FA Code Generator</h1>
+    <div id="qrcode"></div>
+    <input type="text" id="secret" placeholder="Enter Secret Key">
+    <button onclick="startGeneration()">Submit</button>
+    <p id="otp"></p>
+    <p id="expiry"></p>
+    <div id="secret-info"></div>
+    <script src="https://cdn.jsdelivr.net/npm/otpauth/dist/otpauth.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
