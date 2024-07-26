@@ -6,10 +6,10 @@ This is a simple 2FA (Two-Factor Authentication) code generator built using otpa
 
 ## 选择语言 / Select Language
 
-- [Node.js 中文说明](#nodejs-中文说明)
-- [Node.js English Description](#nodejs-english-description)
-- [Golang 中文说明](#golang-中文说明)
-- [Golang English Description](#golang-english-description)
+- [Node.js 中文说明](2FA_Nodejs_CN/2FA_Nodejs_CN/README.md)
+- [Node.js English Description](2FA_Nodejs_EN/2FA_Nodejs_EN/README.md)
+- [Golang 中文说明](2FA_Go_CN/2FA_Go_CN/README.md)
+- [Golang English Description](2FA_Go_EN/2FA_Go_EN/README.md)
 
 ## Node.js 中文说明
 
